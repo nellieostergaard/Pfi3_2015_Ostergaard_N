@@ -1,0 +1,175 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.nellie.assignment_2.Fragment_2"
+    android:id="@+id/">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|top"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_marginTop="77dp"
+            android:text="Från"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textView2"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_marginLeft="10dp"
+            android:text="Till"
+            android:textSize="20dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText6"
+            android:layout_centerHorizontal="true"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_below="@+id/editText7" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText7"
+            android:layout_above="@+id/textView2"
+            android:layout_alignStart="@+id/editText6" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="31dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="  Favoritresor"
+                android:id="@+id/textView3"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textIsSelectable="false"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="60dp"
+                android:background="#d1de0810"
+                android:autoText="true"
+                android:textColor="#ffffff"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="  Bevakningar"
+                android:id="@+id/textView4"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="20dp"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:autoText="false"
+                android:background="#d1de0810"
+                android:textColor="#ffffff"
+                android:layout_alignParentEnd="true" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@+id/button"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="41dp"
+                    android:id="@+id/relativeLayout">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Avgång"
+                        android:id="@+id/checkBox2"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Trafikslag"
+                        android:id="@+id/textView8"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_alignTop="@+id/button2"
+                        android:layout_alignParentStart="true" />
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ändra"
+                        android:id="@+id/button2"
+                        android:layout_marginEnd="43dp"
+                        android:layout_marginTop="38dp"
+                        android:layout_below="@+id/checkBox2"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ändra"
+                    android:id="@+id/button"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginEnd="43dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tid/Datum"
+                    android:id="@+id/textView6"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignTop="@+id/button" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ankomst"
+                    android:id="@+id/checkBox"
+                    android:layout_below="@+id/button"
+                    android:layout_alignParentStart="true"
+                    android:checked="true" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

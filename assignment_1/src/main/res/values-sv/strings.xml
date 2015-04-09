@@ -1,0 +1,38 @@
+
+<resources>
+
+<string name="Get_quote">Få citat</string>
+<string name="Rubrik">Kända Citat</string>
+<string name="Your_quote">ditt citat</string>
+<string name="action_settings">inställningar</string>
+<string name="app_name">min applikation</string>
+<string name="hello_world">hej världen</string>
+
+
+<string-array name="myQuotes">
+
+        <item>
+           "Du lever bara en gång, men om du gör det rätt så är en gång nog."
+        </item>
+
+        <item>
+        “"Med två ord kan jag summera vad jag lärt mig om livet, det fortsätter."
+        </item>
+
+        <item>
+        "Förlåt alltid dina fiender, inget irriterar dem mer."
+
+        </item>
+
+          <item>
+           "Jag är så smart att jag ibland inte förstår vad jag säger"
+        </item>
+
+           <item>
+        "Att leva är det mest ovanlig i världen, dem flesta existerar endast"
+
+        </item>
+
+</string-array>
+
+</resources>
