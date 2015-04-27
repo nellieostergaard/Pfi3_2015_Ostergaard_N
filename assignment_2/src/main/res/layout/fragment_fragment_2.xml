@@ -1,7 +1,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" tools:context="com.example.nellie.assignment_2.Fragment_2"
-    android:id="@+id/">
+    android:id="@+id/fragment_2">
 
     <!-- TODO: Update blank fragment layout -->
 
