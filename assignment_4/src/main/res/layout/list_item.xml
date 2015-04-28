@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    tools:context="com.example.nellie.assignment_4.GridFragment"
+
+
+    android:layout_height="match_parent"
+    android:background="#ff000000"
+    android:columnCount="2"
+    android:rowCount="3"
+    android:id="@+id/fragmentGrid">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:id="@+id/listName"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:src="@drawable/jorden"
+        android:id="@+id/listImage"
+        android:textColor="#ffffff"
+        android:textSize="10dp"
+        android:layout_alignParentStart="true"
+       />
+
+
+</RelativeLayout>
