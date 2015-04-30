@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="se.mah.k3lara.se.mah.k3.TestActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>
+<!-- From: file:/C:/Users/Nellie/AndroidStudioProjects/Pfi3_2015_Ostergaard_N/A_3/assignment_3_starter_kit/src/main/res/menu/menu_test.xml -->

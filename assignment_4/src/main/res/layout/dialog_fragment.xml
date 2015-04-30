@@ -2,9 +2,9 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:theme="@android:style/Theme.NoTitleBar"
     tools:context="com.example.nellie.assignment_4.PlanetFragment"
     android:id="@+id/FragmentDialog"
-    android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen"
     android:onClick="onClick">
 
     <RelativeLayout
